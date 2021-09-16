@@ -98,7 +98,7 @@ export default function Menu() {
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://oasiswap.finance/docs/">
+          <MenuItem id="link" href="https://docs.oasiswap.finance/">
             <BookOpen size={14} />
             Docs
           </MenuItem>
@@ -106,9 +106,13 @@ export default function Menu() {
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/OASIS_Metaverse_Official">
+          <MenuItem id="link" href="https://t.me/OasisMetaverse_All_Users">
             <MessageCircle size={14} />
             Telegram
+          </MenuItem>
+          <MenuItem id="link" href="https://t.me/OasisMetaverse_Developers">
+            <MessageCircle size={14} />
+            Developers
           </MenuItem>
 
         </MenuFlyout>
