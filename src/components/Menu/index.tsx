@@ -78,7 +78,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Danny931/Oasis-Universe'
+const CODE_LINK = 'https://github.com/Danny931/Oasis-Metaverse'
 
 export default function Menu() {
   const node = useRef<HTMLDivElement>()
@@ -112,7 +112,7 @@ export default function Menu() {
           </MenuItem>
           <MenuItem id="link" href="https://t.me/OasisMetaverse_Developers">
             <MessageCircle size={14} />
-            Developers
+            DEV_TG
           </MenuItem>
 
         </MenuFlyout>
