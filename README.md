@@ -20,8 +20,8 @@ or visit [app.oasiswap.finance](https://app.oasiswap.finance).
 ## Listing a token
 
 Please see the
-[@Oasiswap/default-token-list](https://github.com/Oasiswap/default-token-list) 
-repository.
+[Oasiswap-Hosted-Tokenlist](https://github.com/Danny931/Oasiswap-Hosted-Tokenlist) 
+repository or send email to [contact@oasiswap.finance](mailto:contact@oasiswap.finance)
 
 ## Development
 
