@@ -7,8 +7,8 @@ An open source interface for OASISwap -- a protocol for decentralized exchange o
 
 - Website: [oasiswap.finance](https://oasiswap.finance/)
 - Interface: [app.oasiswap.finance](https://app.oasiswap.finance)
-- Docs: [oasiswap.finance/docs/](https://oasiswap.finance/docs/)
-- Twitter: [@OasiswapMetaverse](https://twitter.com/OasiswapMetaverse)
+- Docs: [oasiswap.finance/docs/](https://docs.oasiswap.finance/)
+- Twitter: [@OasiswapMetaverse](https://twitter.com/Oasis_Meta_BSC)
 - Email: [contact@oasiswap.finance](mailto:contact@oasiswap.finance)
 
 ## Accessing the Oasiswap Interface
