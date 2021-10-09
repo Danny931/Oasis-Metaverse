@@ -421,7 +421,7 @@ describe('list reducer', () => {
               loadingRequestId: null,
               pendingUpdate: null
             },
-            'https://tokens.oasiswap.finance/oasiswap-hosted-list.json': {
+            'https://token.oasiswap.finance/oasiswap-hosted-list.json': {
               error: null,
               current: STUB_TOKEN_LIST,
               loadingRequestId: null,
@@ -437,7 +437,7 @@ describe('list reducer', () => {
         expect(
           store.getState().byUrl['https://unpkg.com/@uniswap/default-token-list@latest/uniswap-default.tokenlist.json']
         ).toBeUndefined()
-        expect(store.getState().byUrl['https://tokens.oasiswap.finance/oasiswap-hosted-list.json']).toBeUndefined()
+        expect(store.getState().byUrl['https://token.oasiswap.finance/oasiswap-hosted-list.json']).toBeUndefined()
       })
 
       it('puts in all the new lists', () => {
@@ -477,7 +477,7 @@ describe('list reducer', () => {
               loadingRequestId: null,
               pendingUpdate: null
             },
-            'https://tokens.oasiswap.finance/oasiswap-hosted-list.json': {
+            'https://token.oasiswap.finance/oasiswap-hosted-list.json': {
               error: null,
               current: STUB_TOKEN_LIST,
               loadingRequestId: null,
@@ -485,7 +485,7 @@ describe('list reducer', () => {
             }
           },
           selectedListUrl: undefined,
-          lastInitializedDefaultListOfLists: ['https://tokens.oasiswap.finance/oasiswap-hosted-list.json']
+          lastInitializedDefaultListOfLists: ['https://token.oasiswap.finance/oasiswap-hosted-list.json']
         })
         store.dispatch(updateVersion())
       })
@@ -501,7 +501,7 @@ describe('list reducer', () => {
         })
       })
       it('removes lists in the last initialized list of lists', () => {
-        expect(store.getState().byUrl['https://tokens.oasiswap.finance/oasiswap-hosted-list.json']).toBeUndefined()
+        expect(store.getState().byUrl['https://token.oasiswap.finance/oasiswap-hosted-list.json']).toBeUndefined()
       })
 
       it('adds all the lists in the default list of lists', () => {
@@ -513,7 +513,7 @@ describe('list reducer', () => {
         // note we don't expect the uniswap default list to be prepopulated
         // this is ok.
         Object.keys(byUrl).forEach(url => {
-          if (url !== 'https://tokens.oasiswap.finance/oasiswap-hosted-list.json') {
+          if (url !== 'https://token.oasiswap.finance/oasiswap-hosted-list.json') {
             expect(byUrl[url]).toEqual({
               error: null,
               current: null,
